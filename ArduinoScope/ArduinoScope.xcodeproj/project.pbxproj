@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842AF2EC1620804600A231E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842AF2EB1620804600A231E9 /* Cocoa.framework */; };
+		842AF2F61620804600A231E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 842AF2F41620804600A231E9 /* InfoPlist.strings */; };
+		842AF2F81620804600A231E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842AF2F71620804600A231E9 /* main.m */; };
+		842AF2FC1620804600A231E9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 842AF2FA1620804600A231E9 /* Credits.rtf */; };
+		842AF2FF1620804600A231E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 842AF2FE1620804600A231E9 /* AppDelegate.m */; };
+		842AF3021620804700A231E9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842AF3001620804700A231E9 /* MainMenu.xib */; };
+		842AF31A1620806200A231E9 /* AMSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 842AF30C1620806200A231E9 /* AMSerialPort.m */; };
+		842AF31B1620806200A231E9 /* AMSerialPortAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 842AF30E1620806200A231E9 /* AMSerialPortAdditions.m */; };
+		842AF31C1620806200A231E9 /* AMSerialPortList.m in Sources */ = {isa = PBXBuildFile; fileRef = 842AF3101620806200A231E9 /* AMSerialPortList.m */; };
+		842AF31D1620806200A231E9 /* AMSerialPortList_Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = 842AF3121620806200A231E9 /* AMSerialPortList_Deprecated.m */; };
+		842AF31E1620806200A231E9 /* AMStandardEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 842AF3141620806200A231E9 /* AMStandardEnumerator.m */; };
+		842AF31F1620806200A231E9 /* ScopeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 842AF3171620806200A231E9 /* ScopeView.m */; };
+		842AF3201620806200A231E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842AF3191620806200A231E9 /* ViewController.m */; };
+		842AF322162080B500A231E9 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842AF321162080B500A231E9 /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		842AF2E71620804600A231E9 /* ArduinoScope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArduinoScope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		842AF2EB1620804600A231E9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		842AF2EE1620804600A231E9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		842AF2EF1620804600A231E9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		842AF2F01620804600A231E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		842AF2F31620804600A231E9 /* ArduinoScope-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArduinoScope-Info.plist"; sourceTree = "<group>"; };
+		842AF2F51620804600A231E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		842AF2F71620804600A231E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		842AF2F91620804600A231E9 /* ArduinoScope-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArduinoScope-Prefix.pch"; sourceTree = "<group>"; };
+		842AF2FB1620804600A231E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		842AF2FD1620804600A231E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		842AF2FE1620804600A231E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		842AF3011620804700A231E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		842AF3091620806200A231E9 /* AMSDKCompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSDKCompatibility.h; sourceTree = "<group>"; };
+		842AF30A1620806200A231E9 /* AMSerialErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSerialErrors.h; sourceTree = "<group>"; };
+		842AF30B1620806200A231E9 /* AMSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSerialPort.h; sourceTree = "<group>"; };
+		842AF30C1620806200A231E9 /* AMSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSerialPort.m; sourceTree = "<group>"; };
+		842AF30D1620806200A231E9 /* AMSerialPortAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSerialPortAdditions.h; sourceTree = "<group>"; };
+		842AF30E1620806200A231E9 /* AMSerialPortAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSerialPortAdditions.m; sourceTree = "<group>"; };
+		842AF30F1620806200A231E9 /* AMSerialPortList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSerialPortList.h; sourceTree = "<group>"; };
+		842AF3101620806200A231E9 /* AMSerialPortList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSerialPortList.m; sourceTree = "<group>"; };
+		842AF3111620806200A231E9 /* AMSerialPortList_Deprecated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSerialPortList_Deprecated.h; sourceTree = "<group>"; };
+		842AF3121620806200A231E9 /* AMSerialPortList_Deprecated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSerialPortList_Deprecated.m; sourceTree = "<group>"; };
+		842AF3131620806200A231E9 /* AMStandardEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMStandardEnumerator.h; sourceTree = "<group>"; };
+		842AF3141620806200A231E9 /* AMStandardEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMStandardEnumerator.m; sourceTree = "<group>"; };
+		842AF3161620806200A231E9 /* ScopeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScopeView.h; sourceTree = "<group>"; };
+		842AF3171620806200A231E9 /* ScopeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScopeView.m; sourceTree = "<group>"; };
+		842AF3181620806200A231E9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		842AF3191620806200A231E9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		842AF321162080B500A231E9 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		842AF2E41620804600A231E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842AF322162080B500A231E9 /* IOKit.framework in Frameworks */,
+				842AF2EC1620804600A231E9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		842AF2DC1620804600A231E9 = {
+			isa = PBXGroup;
+			children = (
+				842AF321162080B500A231E9 /* IOKit.framework */,
+				842AF2F11620804600A231E9 /* ArduinoScope */,
+				842AF2EA1620804600A231E9 /* Frameworks */,
+				842AF2E81620804600A231E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		842AF2E81620804600A231E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				842AF2E71620804600A231E9 /* ArduinoScope.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842AF2EA1620804600A231E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				842AF2EB1620804600A231E9 /* Cocoa.framework */,
+				842AF2ED1620804600A231E9 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		842AF2ED1620804600A231E9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				842AF2EE1620804600A231E9 /* AppKit.framework */,
+				842AF2EF1620804600A231E9 /* CoreData.framework */,
+				842AF2F01620804600A231E9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		842AF2F11620804600A231E9 /* ArduinoScope */ = {
+			isa = PBXGroup;
+			children = (
+				842AF3081620806200A231E9 /* Serial Stuff */,
+				842AF3151620806200A231E9 /* Scope View */,
+				842AF2FD1620804600A231E9 /* AppDelegate.h */,
+				842AF2FE1620804600A231E9 /* AppDelegate.m */,
+				842AF3001620804700A231E9 /* MainMenu.xib */,
+				842AF2F21620804600A231E9 /* Supporting Files */,
+			);
+			path = ArduinoScope;
+			sourceTree = "<group>";
+		};
+		842AF2F21620804600A231E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				842AF2F31620804600A231E9 /* ArduinoScope-Info.plist */,
+				842AF2F41620804600A231E9 /* InfoPlist.strings */,
+				842AF2F71620804600A231E9 /* main.m */,
+				842AF2F91620804600A231E9 /* ArduinoScope-Prefix.pch */,
+				842AF2FA1620804600A231E9 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		842AF3081620806200A231E9 /* Serial Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				842AF3091620806200A231E9 /* AMSDKCompatibility.h */,
+				842AF30A1620806200A231E9 /* AMSerialErrors.h */,
+				842AF30B1620806200A231E9 /* AMSerialPort.h */,
+				842AF30C1620806200A231E9 /* AMSerialPort.m */,
+				842AF30D1620806200A231E9 /* AMSerialPortAdditions.h */,
+				842AF30E1620806200A231E9 /* AMSerialPortAdditions.m */,
+				842AF30F1620806200A231E9 /* AMSerialPortList.h */,
+				842AF3101620806200A231E9 /* AMSerialPortList.m */,
+				842AF3111620806200A231E9 /* AMSerialPortList_Deprecated.h */,
+				842AF3121620806200A231E9 /* AMSerialPortList_Deprecated.m */,
+				842AF3131620806200A231E9 /* AMStandardEnumerator.h */,
+				842AF3141620806200A231E9 /* AMStandardEnumerator.m */,
+			);
+			path = "Serial Stuff";
+			sourceTree = "<group>";
+		};
+		842AF3151620806200A231E9 /* Scope View */ = {
+			isa = PBXGroup;
+			children = (
+				842AF3161620806200A231E9 /* ScopeView.h */,
+				842AF3171620806200A231E9 /* ScopeView.m */,
+				842AF3181620806200A231E9 /* ViewController.h */,
+				842AF3191620806200A231E9 /* ViewController.m */,
+			);
+			path = "Scope View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		842AF2E61620804600A231E9 /* ArduinoScope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842AF3051620804700A231E9 /* Build configuration list for PBXNativeTarget "ArduinoScope" */;
+			buildPhases = (
+				842AF2E31620804600A231E9 /* Sources */,
+				842AF2E41620804600A231E9 /* Frameworks */,
+				842AF2E51620804600A231E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArduinoScope;
+			productName = ArduinoScope;
+			productReference = 842AF2E71620804600A231E9 /* ArduinoScope.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		842AF2DE1620804600A231E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = iroth;
+			};
+			buildConfigurationList = 842AF2E11620804600A231E9 /* Build configuration list for PBXProject "ArduinoScope" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 842AF2DC1620804600A231E9;
+			productRefGroup = 842AF2E81620804600A231E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				842AF2E61620804600A231E9 /* ArduinoScope */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		842AF2E51620804600A231E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842AF2F61620804600A231E9 /* InfoPlist.strings in Resources */,
+				842AF2FC1620804600A231E9 /* Credits.rtf in Resources */,
+				842AF3021620804700A231E9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		842AF2E31620804600A231E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842AF2F81620804600A231E9 /* main.m in Sources */,
+				842AF2FF1620804600A231E9 /* AppDelegate.m in Sources */,
+				842AF31A1620806200A231E9 /* AMSerialPort.m in Sources */,
+				842AF31B1620806200A231E9 /* AMSerialPortAdditions.m in Sources */,
+				842AF31C1620806200A231E9 /* AMSerialPortList.m in Sources */,
+				842AF31D1620806200A231E9 /* AMSerialPortList_Deprecated.m in Sources */,
+				842AF31E1620806200A231E9 /* AMStandardEnumerator.m in Sources */,
+				842AF31F1620806200A231E9 /* ScopeView.m in Sources */,
+				842AF3201620806200A231E9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		842AF2F41620804600A231E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842AF2F51620804600A231E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		842AF2FA1620804600A231E9 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842AF2FB1620804600A231E9 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		842AF3001620804700A231E9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842AF3011620804700A231E9 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		842AF3031620804700A231E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		842AF3041620804700A231E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		842AF3061620804700A231E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArduinoScope/ArduinoScope-Prefix.pch";
+				INFOPLIST_FILE = "ArduinoScope/ArduinoScope-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		842AF3071620804700A231E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ArduinoScope/ArduinoScope-Prefix.pch";
+				INFOPLIST_FILE = "ArduinoScope/ArduinoScope-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		842AF2E11620804600A231E9 /* Build configuration list for PBXProject "ArduinoScope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842AF3031620804700A231E9 /* Debug */,
+				842AF3041620804700A231E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842AF3051620804700A231E9 /* Build configuration list for PBXNativeTarget "ArduinoScope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842AF3061620804700A231E9 /* Debug */,
+				842AF3071620804700A231E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 842AF2DE1620804600A231E9 /* Project object */;
+}
